@@ -1,0 +1,17 @@
+{
+  "name": "weather-app-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "homepage": "https://bdog72.github.io/weather-app-Javascript",
+  "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}
+git remote add origin git@github.com:bdog72/weather-app-Javascript.git
